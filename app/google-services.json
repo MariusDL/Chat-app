@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "702305827433",
+    "firebase_url": "https://chatapp-b0e0e-default-rtdb.firebaseio.com",
+    "project_id": "chatapp-b0e0e",
+    "storage_bucket": "chatapp-b0e0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702305827433:android:562a646f3af9262556c0f8",
+        "android_client_info": {
+          "package_name": "com.marius.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702305827433-ac1aed60uh5qt98ltf6t00evf8k56ums.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC_C6NcVe0qR3iCTX3QYrPz9TmpYjhxqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702305827433-ac1aed60uh5qt98ltf6t00evf8k56ums.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

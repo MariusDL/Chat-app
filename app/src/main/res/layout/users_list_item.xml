@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/UsersListProfileImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/UsersListUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/UsersListProfileImage"
+        android:text="Username"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"
+        android:layout_marginStart="10dp"
+        android:textColor="#000"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/UsersListItemOnBubble"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:civ_border_width="7dp"
+        app:civ_border_color="#05df29"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@id/UsersListUsername"
+        android:layout_toEndOf="@id/UsersListProfileImage"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="-15dp"
+        android:visibility="gone"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/UsersListItemOffBubble"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:civ_border_width="7dp"
+        app:civ_border_color="#bfbfbf"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@id/UsersListUsername"
+        android:layout_toEndOf="@id/UsersListProfileImage"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="-15dp"
+        android:visibility="gone"
+        />
+
+
+
+
+
+</RelativeLayout>
